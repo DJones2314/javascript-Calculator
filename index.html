@@ -1,0 +1,48 @@
+<!doctype HTML>
+<html>
+
+    <head>
+    
+        <title>Calculator</title>
+        
+    </head>
+    
+    <body>
+    
+        <script type="text/javascript" src="calc.js"></script>
+        
+        <div id="simpleCalc">
+        <input type="number" id="userInputOne" placeholder="Enter your first number"/>
+        
+        <input type="number" id="userInputTwo" placeholder="Enter your second number"/>
+        
+        <input type="button" onclick="addition()" id="addButton" value="Add"/>
+        
+        <input type="button" onclick="subtract()" id="subButton" value="Subtract"/>
+        
+        <input type="button" onclick="multiply()" id="multButton" value="Multiply"/>
+        
+        <input type="button" onclick="divide()" id="divButton" value="Divide"/>
+        
+        <p id="answer"></p>
+            
+        </div>
+      <!--This was the start of a different calculator using solely buttons-->  
+        <div id="buttonCalc">
+        
+        <input type="button" onclick="numberChoice()" id="addButton" value='0'/>
+        <input type="button" onclick="addition()" id="addButton" value='1'/>
+        <input type="button" onclick="addition()" id="addButton" value='2'/> <br>
+        <input type="button" onclick="addition()" id="addButton" value='3'/>
+        <input type="button" onclick="addition()" id="addButton" value='4'/>
+        <input type="button" onclick="addition()" id="addButton" value='5'/> <br>
+        <input type="button" onclick="addition()" id="addButton" value='6'/>
+        <input type="button" onclick="addition()" id="addButton" value='7'/>
+        <input type="button" onclick="addition()" id="addButton" value='8'/> <br>
+        <input type="button" onclick="addition()" id="addButton" value='9'/>
+            
+        </div>
+    
+    </body>
+
+</html>
